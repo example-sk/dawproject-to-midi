@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js"></script>
+    <meta charset="utf-8">
+    <title>DAWproject to MIDI online converter</title>
+    <style type="text/css">
+        body {
+            background: black;
+            color: white;
+        }
+
+        #fileselect {
+            margin: 0 auto;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        input {
+            display: block;
+            border : 1px solid white;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>DAWproject to MIDI online converter</h1>
+    <div id="container">
+        <label>
+            Select DAWproject file:
+            <input type="file" id="fileselect" accept=".dawproject" />
+        </label>
+    </div>
+    <div id="status"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "bitwig.robo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.24.0",
+    "esbuild-plugin-tsc": "^0.4.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jszip": "^3.10.1",
+    "midi-file": "^1.2.4"
+  }
+}
